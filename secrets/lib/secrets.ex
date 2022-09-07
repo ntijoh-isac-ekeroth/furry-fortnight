@@ -14,9 +14,7 @@ defmodule Secrets do
 //who even wrote that?
 >>>>>>> 756eb12cafe533dc7ac3f7af699929b3b7a7d269
 
-  def secret_multiply(secret) do
-    fn(value) -> value * secret end
-  end
+
 
 
   def secret_divide(secret) do
