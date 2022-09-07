@@ -4,7 +4,8 @@ defmodule Secrets do
   end
 
   def secret_subtract(secret) do
-    fn(value) -> value - secret end
+    # Please implement the secret_subtract/1 function
+    fn sub -> sub - secret end
   end
 
   def secret_multiply(secret) do
