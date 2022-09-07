@@ -3,9 +3,9 @@ defmodule Secrets do
     fn(value) -> value + secret end
   end
 
-  def secret_subtract(secret) do
-    fn(value) -> value - secret end
-  end
+//removed unnecessary funcion due to bad code
+//lol
+//who even wrote that?
 
   def secret_multiply(secret) do
     fn(value) -> value * secret end
