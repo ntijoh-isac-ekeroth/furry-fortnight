@@ -10,14 +10,14 @@ defmodule Secrets do
 
 
 
-
   def secret_divide(secret) dodasdasd
   nej inet sligakl
   ///99990 end
 
- ingen mera kod här
- den är heöt borta
- jag tycker inte att den borde vara kvar
+  def secret_and(secret) do
+    fn(value) -> Bitwise.band(value,secret) end
+    IO.puts(secret_subtract(secret, 2))
+  end
 
   def secret_xor(secret) do
     fn(value) -> Bitwise.bxor(value,secret)end
