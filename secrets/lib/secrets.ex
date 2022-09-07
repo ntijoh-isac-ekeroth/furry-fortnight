@@ -18,8 +18,8 @@ defmodule Secrets do
 
 
   def secret_divide(secret) dodasdasd
-    fn(value) -> div(value,secret) end
-  end
+  nej inet sligakl
+  ///99990 end
 
   def secret_and(secret) do
     fn(value) -> Bitwise.band(value,secret) end
