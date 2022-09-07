@@ -15,9 +15,9 @@ defmodule Secrets do
   nej inet sligakl
   ///99990 end
 
-  def secret_and(secret) do
-    fn(value) -> Bitwise.band(value,secret) end
-  end
+ ingen mera kod här
+ den är heöt borta
+ jag tycker inte att den borde vara kvar
 
   def secret_xor(secret) do
     fn(value) -> Bitwise.bxor(value,secret)end
