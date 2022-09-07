@@ -18,7 +18,7 @@ defmodule Secrets do
 
 
   def secret_divide(secret) dodasdasd
-    fn(value) -> div(value,secret) end
+annan ändring hej
   end
 
   def secret_and(secret) do
